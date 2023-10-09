@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Space+Grotesk:wght@300&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-size:1.5vw;
+
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6c5ce7;
+}
+.contioner{
+    display: flex;
+    background-color: #a29bfe;
+    border-radius: 10px;
+    width: 40%;
+    justify-content: center;
+    padding: 0 15px;
+   
+    
+
+}
+.contioner h2{
+    color:#6c5ce7;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 2.3vw;
+
+}
+.contioner #display{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contioner #display input{
+    border:none;
+    padding:10px 0 ;
+    text-align: center;
+    color:#6c5ce7;
+    font-weight: bolder;
+    background-color:rgba(235, 235, 235, 0.801);
+    border-radius: 10px;
+    border: 2px solid rgb(214, 214, 214); 
+}
+.contioner #display button{
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color:rgba(235, 235, 235, 0.801);
+
+}
+.contioner .password-grop{
+    margin-top: 20px;
+    margin-bottom:10px;
+    color: white;
+
+}
+.contioner #passwordlength{
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color:rgba(235, 235, 235, 0.801);
+    border: none;
+
+
+
+
+}
+.contioner #btnsub{
+    display: flex;
+    justify-content: center;
+
+}
+.contioner .password-grop #btnsubmit{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:rgba(235, 235, 235, 0.801);
+
+}
+
+@media (max-width:1203px){
+    .password-grop label{
+        font-size: 2vw;
+    }
+    button{
+        font-size:1.5vw;
+    }
+    input{
+        font-size: 1.5vw;
+    }
+    .contioner h2{
+        font-size:3vw;
+    }
+}
+
+@media (max-width:1000px){
+    .password-grop label{
+        font-size: 2vw;
+    }
+    button{
+        font-size: 2vw;
+    }
+    input{
+        font-size: 2vw;
+    }
+    .contioner h2{
+        font-size:3.5vw;
+    }
+    #passwordlength{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:800px){
+    .password-grop label{
+        font-size: 2.5vw;
+    }
+    button{
+        font-size: 2.5vw;
+    }
+    input{
+        font-size: 2.5vw;
+    }
+    .contioner h2{
+        font-size:4vw;
+    }
+}
